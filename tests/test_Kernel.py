@@ -2,8 +2,7 @@ import pytest  # run > pytest -s -q -rA
 import numpy as np
 import math
 import sys
-from classes import Kernel
-from classes import Scheme
+from src.fvscheme import Kernel
 
 n_tests = 5
 max_left_cells = 20

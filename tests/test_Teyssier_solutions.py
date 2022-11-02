@@ -1,6 +1,5 @@
 import pytest
-from classes import Kernel
-from classes import Scheme
+from src.fvscheme import Kernel
 
 
 def test_2nd_order_right_biased():
